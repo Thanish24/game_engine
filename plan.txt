@@ -1,0 +1,23 @@
+plan:
+
+event handler -> game state -> display
+
+client -> events -> game server game state -> client display
+protobuf?
+
+game state:
+object
+    physics
+        velocity
+        acceleration
+    controls
+    collision
+    general state
+    image state
+    active
+
+jenkins
+redis
+database with sql
+kafka
+cloud
