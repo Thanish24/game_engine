@@ -50,9 +50,15 @@ struct Pixel {
     char character;
     std::string color; // background or foreground
 
-    Pixel(char c_, std::string color_) : character(c_), color(color_) {}
+    bool active;
 
-    Pixel(char c_) : character(c_), color("") {}
+    Pixel(char c_, std::string color_, bool active_) : character(c_), color(color_), active(active_) {}
+
+    Pixel(char c_, bool active_) : character(c_), color(""), active(active_) {}
+
+    Pixel(char c_, std::string color_) : character(c_), color(color_), active(true) {}
+
+    Pixel(char c_) : character(c_), color(""), active(true) {}
 
 };
 

@@ -21,3 +21,18 @@ redis
 database with sql
 kafka
 cloud
+
+game state -> collection of game objects
+
+event stream:
+
+take user input and update appropriate game objects
+let game object add to event stream
+
+initialize event handler class with events
+pass in game state
+interface for event
+
+categories
+
+update physics event

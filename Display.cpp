@@ -7,7 +7,7 @@
 #include <mutex>
 #include <string>
 
-#include "Pixel.hpp"
+#include "Pixel.cpp"
 
 
 /*
@@ -49,11 +49,11 @@ public:
         stopDisplay();
     }
 
-    int getHeight() {
+    int getHeight() const {
         return height;
     }
 
-    int getWidth() {
+    int getWidth() const {
         return width;
     }
 
