@@ -1,6 +1,6 @@
 #pragma once
 
-#include "GameObj.cpp"
+#include "GameObj.h"
 #include <utility>
 
 /*
@@ -14,7 +14,9 @@ protected:
 
 public:
 
-    ColliderObj(std::pair<int, int> dim_) : dimensions(dim_) {}
-    ColliderObj(int x, int y) : dimensions(std::make_pair(x, y)) {}
+    virtual ~ColliderObj();
+
+    ColliderObj(std::pair<int, int> dim_);
+    ColliderObj(int x, int y);
 
 };

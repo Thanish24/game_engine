@@ -52,20 +52,15 @@ struct Pixel {
 
     bool active;
 
-    Pixel(char c_, std::string color_, bool active_) : character(c_), color(color_), active(active_) {}
+    Pixel(char c_, std::string color_, bool active_);
 
-    Pixel(char c_, bool active_) : character(c_), color(""), active(active_) {}
+    Pixel(char c_, bool active_);
 
-    Pixel(char c_, std::string color_) : character(c_), color(color_), active(true) {}
+    Pixel(char c_, std::string color_);
 
-    Pixel(char c_) : character(c_), color(""), active(true) {}
+    Pixel(char c_);
 
 };
 
 // overload operator for easy printing with color
-std::ostream& operator<<(std::ostream& os, const Pixel& pixel) {
-    if (pixel.active) {
-        os << pixel.color << pixel.character << "\033[0m";
-    }
-    return os;
-}
+std::ostream& operator<<(std::ostream& os, const Pixel& pixel);
