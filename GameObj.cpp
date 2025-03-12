@@ -2,19 +2,19 @@
 
 #include <utility>
 
-class PositionObj {
+class GameObj {
 
-private:
+protected:
 
     std::pair<int, int> coordinates;
 
 public:
 
-    PositionObj(int x, int y) : coordinates(std::make_pair(x, y)) {}
+    GameObj(int x, int y) : coordinates(std::make_pair(x, y)) {}
 
-    PositionObj(std::pair<int, int> coordinates_) : coordinates(coordinates_) {}
+    GameObj(std::pair<int, int> coordinates_) : coordinates(coordinates_) {}
 
-    PositionObj() : coordinates(std::make_pair(0, 0)) {}
+    GameObj() : coordinates(std::make_pair(0, 0)) {}
 
     void setCoordinates(int x, int y) {
         coordinates.first = x;

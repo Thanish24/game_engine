@@ -64,6 +64,8 @@ struct Pixel {
 
 // overload operator for easy printing with color
 std::ostream& operator<<(std::ostream& os, const Pixel& pixel) {
-    os << pixel.color << pixel.character << "\033[0m";
+    if (pixel.active) {
+        os << pixel.color << pixel.character << "\033[0m";
+    }
     return os;
 }

@@ -5,5 +5,5 @@ project(galaxy VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(galaxy test.cpp Display.cpp Pixel.cpp VisibleObj.cpp PositionObj.cpp)
+add_executable(galaxy test.cpp Display.cpp Pixel.cpp VisibleObj.cpp GameObj.cpp ColliderObj.cpp GameState.cpp)
 
