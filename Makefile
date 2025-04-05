@@ -129,197 +129,245 @@ galaxy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/build
 .PHONY : galaxy/fast
 
-engine/ColliderObj.o: engine/ColliderObj.cpp.o
-.PHONY : engine/ColliderObj.o
+engine/display_system/Display.o: engine/display_system/Display.cpp.o
+.PHONY : engine/display_system/Display.o
 
 # target to build an object file
-engine/ColliderObj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/ColliderObj.cpp.o
-.PHONY : engine/ColliderObj.cpp.o
+engine/display_system/Display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/display_system/Display.cpp.o
+.PHONY : engine/display_system/Display.cpp.o
 
-engine/ColliderObj.i: engine/ColliderObj.cpp.i
-.PHONY : engine/ColliderObj.i
+engine/display_system/Display.i: engine/display_system/Display.cpp.i
+.PHONY : engine/display_system/Display.i
 
 # target to preprocess a source file
-engine/ColliderObj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/ColliderObj.cpp.i
-.PHONY : engine/ColliderObj.cpp.i
+engine/display_system/Display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/display_system/Display.cpp.i
+.PHONY : engine/display_system/Display.cpp.i
 
-engine/ColliderObj.s: engine/ColliderObj.cpp.s
-.PHONY : engine/ColliderObj.s
+engine/display_system/Display.s: engine/display_system/Display.cpp.s
+.PHONY : engine/display_system/Display.s
 
 # target to generate assembly for a file
-engine/ColliderObj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/ColliderObj.cpp.s
-.PHONY : engine/ColliderObj.cpp.s
+engine/display_system/Display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/display_system/Display.cpp.s
+.PHONY : engine/display_system/Display.cpp.s
 
-engine/Display.o: engine/Display.cpp.o
-.PHONY : engine/Display.o
+engine/display_system/Pixel.o: engine/display_system/Pixel.cpp.o
+.PHONY : engine/display_system/Pixel.o
 
 # target to build an object file
-engine/Display.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/Display.cpp.o
-.PHONY : engine/Display.cpp.o
+engine/display_system/Pixel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/display_system/Pixel.cpp.o
+.PHONY : engine/display_system/Pixel.cpp.o
 
-engine/Display.i: engine/Display.cpp.i
-.PHONY : engine/Display.i
+engine/display_system/Pixel.i: engine/display_system/Pixel.cpp.i
+.PHONY : engine/display_system/Pixel.i
 
 # target to preprocess a source file
-engine/Display.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/Display.cpp.i
-.PHONY : engine/Display.cpp.i
+engine/display_system/Pixel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/display_system/Pixel.cpp.i
+.PHONY : engine/display_system/Pixel.cpp.i
 
-engine/Display.s: engine/Display.cpp.s
-.PHONY : engine/Display.s
+engine/display_system/Pixel.s: engine/display_system/Pixel.cpp.s
+.PHONY : engine/display_system/Pixel.s
 
 # target to generate assembly for a file
-engine/Display.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/Display.cpp.s
-.PHONY : engine/Display.cpp.s
+engine/display_system/Pixel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/display_system/Pixel.cpp.s
+.PHONY : engine/display_system/Pixel.cpp.s
 
-engine/GameObj.o: engine/GameObj.cpp.o
-.PHONY : engine/GameObj.o
+engine/event_streamer/AsynchEventStreamer.o: engine/event_streamer/AsynchEventStreamer.cpp.o
+.PHONY : engine/event_streamer/AsynchEventStreamer.o
 
 # target to build an object file
-engine/GameObj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/GameObj.cpp.o
-.PHONY : engine/GameObj.cpp.o
+engine/event_streamer/AsynchEventStreamer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/event_streamer/AsynchEventStreamer.cpp.o
+.PHONY : engine/event_streamer/AsynchEventStreamer.cpp.o
 
-engine/GameObj.i: engine/GameObj.cpp.i
-.PHONY : engine/GameObj.i
+engine/event_streamer/AsynchEventStreamer.i: engine/event_streamer/AsynchEventStreamer.cpp.i
+.PHONY : engine/event_streamer/AsynchEventStreamer.i
 
 # target to preprocess a source file
-engine/GameObj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/GameObj.cpp.i
-.PHONY : engine/GameObj.cpp.i
+engine/event_streamer/AsynchEventStreamer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/event_streamer/AsynchEventStreamer.cpp.i
+.PHONY : engine/event_streamer/AsynchEventStreamer.cpp.i
 
-engine/GameObj.s: engine/GameObj.cpp.s
-.PHONY : engine/GameObj.s
+engine/event_streamer/AsynchEventStreamer.s: engine/event_streamer/AsynchEventStreamer.cpp.s
+.PHONY : engine/event_streamer/AsynchEventStreamer.s
 
 # target to generate assembly for a file
-engine/GameObj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/GameObj.cpp.s
-.PHONY : engine/GameObj.cpp.s
+engine/event_streamer/AsynchEventStreamer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/event_streamer/AsynchEventStreamer.cpp.s
+.PHONY : engine/event_streamer/AsynchEventStreamer.cpp.s
 
-engine/GameState.o: engine/GameState.cpp.o
-.PHONY : engine/GameState.o
+engine/event_streamer/SyncEventStreamer.o: engine/event_streamer/SyncEventStreamer.cpp.o
+.PHONY : engine/event_streamer/SyncEventStreamer.o
 
 # target to build an object file
-engine/GameState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/GameState.cpp.o
-.PHONY : engine/GameState.cpp.o
+engine/event_streamer/SyncEventStreamer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/event_streamer/SyncEventStreamer.cpp.o
+.PHONY : engine/event_streamer/SyncEventStreamer.cpp.o
 
-engine/GameState.i: engine/GameState.cpp.i
-.PHONY : engine/GameState.i
+engine/event_streamer/SyncEventStreamer.i: engine/event_streamer/SyncEventStreamer.cpp.i
+.PHONY : engine/event_streamer/SyncEventStreamer.i
 
 # target to preprocess a source file
-engine/GameState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/GameState.cpp.i
-.PHONY : engine/GameState.cpp.i
+engine/event_streamer/SyncEventStreamer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/event_streamer/SyncEventStreamer.cpp.i
+.PHONY : engine/event_streamer/SyncEventStreamer.cpp.i
 
-engine/GameState.s: engine/GameState.cpp.s
-.PHONY : engine/GameState.s
+engine/event_streamer/SyncEventStreamer.s: engine/event_streamer/SyncEventStreamer.cpp.s
+.PHONY : engine/event_streamer/SyncEventStreamer.s
 
 # target to generate assembly for a file
-engine/GameState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/GameState.cpp.s
-.PHONY : engine/GameState.cpp.s
+engine/event_streamer/SyncEventStreamer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/event_streamer/SyncEventStreamer.cpp.s
+.PHONY : engine/event_streamer/SyncEventStreamer.cpp.s
 
-engine/MotionObj.o: engine/MotionObj.cpp.o
-.PHONY : engine/MotionObj.o
+engine/game_objects/ColliderObj.o: engine/game_objects/ColliderObj.cpp.o
+.PHONY : engine/game_objects/ColliderObj.o
 
 # target to build an object file
-engine/MotionObj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/MotionObj.cpp.o
-.PHONY : engine/MotionObj.cpp.o
+engine/game_objects/ColliderObj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/ColliderObj.cpp.o
+.PHONY : engine/game_objects/ColliderObj.cpp.o
 
-engine/MotionObj.i: engine/MotionObj.cpp.i
-.PHONY : engine/MotionObj.i
+engine/game_objects/ColliderObj.i: engine/game_objects/ColliderObj.cpp.i
+.PHONY : engine/game_objects/ColliderObj.i
 
 # target to preprocess a source file
-engine/MotionObj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/MotionObj.cpp.i
-.PHONY : engine/MotionObj.cpp.i
+engine/game_objects/ColliderObj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/ColliderObj.cpp.i
+.PHONY : engine/game_objects/ColliderObj.cpp.i
 
-engine/MotionObj.s: engine/MotionObj.cpp.s
-.PHONY : engine/MotionObj.s
+engine/game_objects/ColliderObj.s: engine/game_objects/ColliderObj.cpp.s
+.PHONY : engine/game_objects/ColliderObj.s
 
 # target to generate assembly for a file
-engine/MotionObj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/MotionObj.cpp.s
-.PHONY : engine/MotionObj.cpp.s
+engine/game_objects/ColliderObj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/ColliderObj.cpp.s
+.PHONY : engine/game_objects/ColliderObj.cpp.s
 
-engine/Pixel.o: engine/Pixel.cpp.o
-.PHONY : engine/Pixel.o
+engine/game_objects/GameObj.o: engine/game_objects/GameObj.cpp.o
+.PHONY : engine/game_objects/GameObj.o
 
 # target to build an object file
-engine/Pixel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/Pixel.cpp.o
-.PHONY : engine/Pixel.cpp.o
+engine/game_objects/GameObj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/GameObj.cpp.o
+.PHONY : engine/game_objects/GameObj.cpp.o
 
-engine/Pixel.i: engine/Pixel.cpp.i
-.PHONY : engine/Pixel.i
+engine/game_objects/GameObj.i: engine/game_objects/GameObj.cpp.i
+.PHONY : engine/game_objects/GameObj.i
 
 # target to preprocess a source file
-engine/Pixel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/Pixel.cpp.i
-.PHONY : engine/Pixel.cpp.i
+engine/game_objects/GameObj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/GameObj.cpp.i
+.PHONY : engine/game_objects/GameObj.cpp.i
 
-engine/Pixel.s: engine/Pixel.cpp.s
-.PHONY : engine/Pixel.s
+engine/game_objects/GameObj.s: engine/game_objects/GameObj.cpp.s
+.PHONY : engine/game_objects/GameObj.s
 
 # target to generate assembly for a file
-engine/Pixel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/Pixel.cpp.s
-.PHONY : engine/Pixel.cpp.s
+engine/game_objects/GameObj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/GameObj.cpp.s
+.PHONY : engine/game_objects/GameObj.cpp.s
 
-engine/VisibleObj.o: engine/VisibleObj.cpp.o
-.PHONY : engine/VisibleObj.o
+engine/game_objects/GameState.o: engine/game_objects/GameState.cpp.o
+.PHONY : engine/game_objects/GameState.o
 
 # target to build an object file
-engine/VisibleObj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/VisibleObj.cpp.o
-.PHONY : engine/VisibleObj.cpp.o
+engine/game_objects/GameState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/GameState.cpp.o
+.PHONY : engine/game_objects/GameState.cpp.o
 
-engine/VisibleObj.i: engine/VisibleObj.cpp.i
-.PHONY : engine/VisibleObj.i
+engine/game_objects/GameState.i: engine/game_objects/GameState.cpp.i
+.PHONY : engine/game_objects/GameState.i
 
 # target to preprocess a source file
-engine/VisibleObj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/VisibleObj.cpp.i
-.PHONY : engine/VisibleObj.cpp.i
+engine/game_objects/GameState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/GameState.cpp.i
+.PHONY : engine/game_objects/GameState.cpp.i
 
-engine/VisibleObj.s: engine/VisibleObj.cpp.s
-.PHONY : engine/VisibleObj.s
+engine/game_objects/GameState.s: engine/game_objects/GameState.cpp.s
+.PHONY : engine/game_objects/GameState.s
 
 # target to generate assembly for a file
-engine/VisibleObj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/VisibleObj.cpp.s
-.PHONY : engine/VisibleObj.cpp.s
+engine/game_objects/GameState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/GameState.cpp.s
+.PHONY : engine/game_objects/GameState.cpp.s
 
-test.o: test.cpp.o
-.PHONY : test.o
+engine/game_objects/MotionObj.o: engine/game_objects/MotionObj.cpp.o
+.PHONY : engine/game_objects/MotionObj.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/test.cpp.o
-.PHONY : test.cpp.o
+engine/game_objects/MotionObj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/MotionObj.cpp.o
+.PHONY : engine/game_objects/MotionObj.cpp.o
 
-test.i: test.cpp.i
-.PHONY : test.i
+engine/game_objects/MotionObj.i: engine/game_objects/MotionObj.cpp.i
+.PHONY : engine/game_objects/MotionObj.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/test.cpp.i
-.PHONY : test.cpp.i
+engine/game_objects/MotionObj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/MotionObj.cpp.i
+.PHONY : engine/game_objects/MotionObj.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+engine/game_objects/MotionObj.s: engine/game_objects/MotionObj.cpp.s
+.PHONY : engine/game_objects/MotionObj.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/test.cpp.s
-.PHONY : test.cpp.s
+engine/game_objects/MotionObj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/MotionObj.cpp.s
+.PHONY : engine/game_objects/MotionObj.cpp.s
+
+engine/game_objects/VisibleObj.o: engine/game_objects/VisibleObj.cpp.o
+.PHONY : engine/game_objects/VisibleObj.o
+
+# target to build an object file
+engine/game_objects/VisibleObj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/VisibleObj.cpp.o
+.PHONY : engine/game_objects/VisibleObj.cpp.o
+
+engine/game_objects/VisibleObj.i: engine/game_objects/VisibleObj.cpp.i
+.PHONY : engine/game_objects/VisibleObj.i
+
+# target to preprocess a source file
+engine/game_objects/VisibleObj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/VisibleObj.cpp.i
+.PHONY : engine/game_objects/VisibleObj.cpp.i
+
+engine/game_objects/VisibleObj.s: engine/game_objects/VisibleObj.cpp.s
+.PHONY : engine/game_objects/VisibleObj.s
+
+# target to generate assembly for a file
+engine/game_objects/VisibleObj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_objects/VisibleObj.cpp.s
+.PHONY : engine/game_objects/VisibleObj.cpp.s
+
+engine/game_server/GameServer.o: engine/game_server/GameServer.cpp.o
+.PHONY : engine/game_server/GameServer.o
+
+# target to build an object file
+engine/game_server/GameServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_server/GameServer.cpp.o
+.PHONY : engine/game_server/GameServer.cpp.o
+
+engine/game_server/GameServer.i: engine/game_server/GameServer.cpp.i
+.PHONY : engine/game_server/GameServer.i
+
+# target to preprocess a source file
+engine/game_server/GameServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_server/GameServer.cpp.i
+.PHONY : engine/game_server/GameServer.cpp.i
+
+engine/game_server/GameServer.s: engine/game_server/GameServer.cpp.s
+.PHONY : engine/game_server/GameServer.s
+
+# target to generate assembly for a file
+engine/game_server/GameServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/galaxy.dir/build.make CMakeFiles/galaxy.dir/engine/game_server/GameServer.cpp.s
+.PHONY : engine/game_server/GameServer.cpp.s
 
 # Help Target
 help:
@@ -330,30 +378,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... galaxy"
-	@echo "... engine/ColliderObj.o"
-	@echo "... engine/ColliderObj.i"
-	@echo "... engine/ColliderObj.s"
-	@echo "... engine/Display.o"
-	@echo "... engine/Display.i"
-	@echo "... engine/Display.s"
-	@echo "... engine/GameObj.o"
-	@echo "... engine/GameObj.i"
-	@echo "... engine/GameObj.s"
-	@echo "... engine/GameState.o"
-	@echo "... engine/GameState.i"
-	@echo "... engine/GameState.s"
-	@echo "... engine/MotionObj.o"
-	@echo "... engine/MotionObj.i"
-	@echo "... engine/MotionObj.s"
-	@echo "... engine/Pixel.o"
-	@echo "... engine/Pixel.i"
-	@echo "... engine/Pixel.s"
-	@echo "... engine/VisibleObj.o"
-	@echo "... engine/VisibleObj.i"
-	@echo "... engine/VisibleObj.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... engine/display_system/Display.o"
+	@echo "... engine/display_system/Display.i"
+	@echo "... engine/display_system/Display.s"
+	@echo "... engine/display_system/Pixel.o"
+	@echo "... engine/display_system/Pixel.i"
+	@echo "... engine/display_system/Pixel.s"
+	@echo "... engine/event_streamer/AsynchEventStreamer.o"
+	@echo "... engine/event_streamer/AsynchEventStreamer.i"
+	@echo "... engine/event_streamer/AsynchEventStreamer.s"
+	@echo "... engine/event_streamer/SyncEventStreamer.o"
+	@echo "... engine/event_streamer/SyncEventStreamer.i"
+	@echo "... engine/event_streamer/SyncEventStreamer.s"
+	@echo "... engine/game_objects/ColliderObj.o"
+	@echo "... engine/game_objects/ColliderObj.i"
+	@echo "... engine/game_objects/ColliderObj.s"
+	@echo "... engine/game_objects/GameObj.o"
+	@echo "... engine/game_objects/GameObj.i"
+	@echo "... engine/game_objects/GameObj.s"
+	@echo "... engine/game_objects/GameState.o"
+	@echo "... engine/game_objects/GameState.i"
+	@echo "... engine/game_objects/GameState.s"
+	@echo "... engine/game_objects/MotionObj.o"
+	@echo "... engine/game_objects/MotionObj.i"
+	@echo "... engine/game_objects/MotionObj.s"
+	@echo "... engine/game_objects/VisibleObj.o"
+	@echo "... engine/game_objects/VisibleObj.i"
+	@echo "... engine/game_objects/VisibleObj.s"
+	@echo "... engine/game_server/GameServer.o"
+	@echo "... engine/game_server/GameServer.i"
+	@echo "... engine/game_server/GameServer.s"
 .PHONY : help
 
 

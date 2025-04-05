@@ -139,3 +139,8 @@ void Display::stopDisplay() {
 
 }
 
+// utilizing move semantics
+void Display::setBuffer(std::vector<std::vector<Pixel>>& input) {
+    buffer = std::move(input);
+}
+

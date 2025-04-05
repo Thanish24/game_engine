@@ -1,12 +1,16 @@
 #pragma once
 
 #include <utility>
+#include <cstdint>
+
+uint32_t id_gen = 0;
 
 class GameObj {
 
 protected:
 
     std::pair<int, int> coordinates;
+    uint32_t id;
 
 public:
 

@@ -57,4 +57,6 @@ public:
 
     void stopDisplay();
 
+    void setBuffer(std::vector<std::vector<Pixel>>& input);
+
 };

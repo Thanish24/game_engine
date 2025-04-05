@@ -2,11 +2,11 @@
 #include <utility>
 
 
-GameObj::GameObj(int x, int y) : coordinates(std::make_pair(x, y)) {}
+GameObj::GameObj(int x, int y) : coordinates(std::make_pair(x, y)), id(++id_gen) {}
 
-GameObj::GameObj(std::pair<int, int> coordinates_) : coordinates(coordinates_) {}
+GameObj::GameObj(std::pair<int, int> coordinates_) : coordinates(coordinates_), id(++id_gen) {}
 
-GameObj::GameObj() : coordinates(std::make_pair(0, 0)) {}
+GameObj::GameObj() : coordinates(std::make_pair(0, 0)), id(++id_gen) {}
 
 GameObj::~GameObj() = default;
 

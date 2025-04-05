@@ -36,3 +36,6 @@ interface for event
 categories
 
 update physics event
+
+utilize synch event stream for bullet hits and game wins
+utilize asynch event stream for action log

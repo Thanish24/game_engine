@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package events;
+
+message key_event {
+
+    required int32 key = 1;
+
+}
+
+message collision {
+
+    required int32 object1 = 1;
+    required int32 object2 = 2;
+
+}
+
