@@ -14,16 +14,16 @@ protected:
 
     bool visible;
 
-    std::shared_ptr<std::vector<sprite>> sprites; // make this a reference so multiple objects can have the same sprites
+    std::vector<sprite> sprites; // make this a reference so multiple objects can have the same sprites
 
     int activeSprite = -1;
 
 public:
 
-    VisibleObj(bool visible_, std::shared_ptr<std::vector<sprite>> sprites_
+    VisibleObj(bool visible_, std::vector<sprite> sprites_
         , int activeSprite_, std::pair<int, int> coords_);
 
-    VisibleObj(bool visible_, std::shared_ptr<std::vector<sprite>> sprites_, int activeSprite_);
+    VisibleObj(bool visible_, std::vector<sprite> sprites_, int activeSprite_);
 
     virtual ~VisibleObj();
 

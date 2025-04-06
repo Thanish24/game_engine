@@ -152,7 +152,7 @@ public:
             }
 
             std::cout << "Client: " << clientId << "connected\n";
-            clientThreads.emplace_back(&handleClient, this, clientSocket, clientId++);
+            clientThreads.emplace_back(&GameServer::handleClient, this, clientSocket, clientId++);
         }
 
 

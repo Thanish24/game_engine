@@ -35,6 +35,8 @@ set(SOURCES
     engine/event_streamer/AsynchEventStreamer.cpp
     engine/event_streamer/SyncEventStreamer.cpp
     engine/game_server/GameServer.cpp
+    engine/game_objects/red_v_blue/Player1.cpp
+    engine/game_objects/red_v_blue/Player2.cpp
 )
 
 add_executable(galaxy ${SOURCES})

@@ -6,12 +6,12 @@
 #include <memory>
 #include <utility>
 
-VisibleObj::VisibleObj(bool visible_, std::shared_ptr<std::vector<sprite>> sprites_
+VisibleObj::VisibleObj(bool visible_, std::vector<sprite> sprites_
     , int activeSprite_, std::pair<int, int> coords_) : 
     visible(visible_), sprites(sprites_), activeSprite(activeSprite_),
     GameObj(coords_){}
 
-VisibleObj::VisibleObj(bool visible_, std::shared_ptr<std::vector<sprite>> sprites_, int activeSprite_) : 
+VisibleObj::VisibleObj(bool visible_, std::vector<sprite> sprites_, int activeSprite_) : 
     visible(visible_), sprites(sprites_), activeSprite(activeSprite_) {}
 
 VisibleObj::~VisibleObj() = default;
@@ -30,5 +30,5 @@ void VisibleObj::setSprite(int i) {
 
 sprite VisibleObj::getActiveSprite() const {
     if (activeSprite == -1) throw std::runtime_error("active sprite not initialized!");
-    return (*sprites)[activeSprite];
+    return sprites[activeSprite];
 }
